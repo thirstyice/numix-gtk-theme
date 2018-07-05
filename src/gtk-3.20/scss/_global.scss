@@ -7,7 +7,7 @@ $bg_color: if($variant == "dark", #444, #dedede);
 $fg_color: if($variant == "dark", #ddd, #555);
 $base_color: if($variant == "dark", #333, #fff);
 $text_color: if($variant == "dark", #eee, #333);
-$selected_bg_color: #f0544c;
+$selected_bg_color: #29f;
 $selected_fg_color: #fff;
 $tooltip_bg_color: #444;
 $tooltip_fg_color: #eee;
@@ -46,17 +46,17 @@ $switch_slider_bg_color: #fbfbfb;
 
 // misc colors used by gtk+
 $info_fg_color: #fff;
-$info_bg_color: #03a9f4;
+$info_bg_color: #29f;
 $warning_fg_color: #fff;
-$warning_bg_color: #ef6c00;
+$warning_bg_color: #e93;
 $question_fg_color: #fff;
-$question_bg_color: #673ab7;
+$question_bg_color: #6644bb;
 $error_fg_color: #fff;
-$error_bg_color: #f44336;
+$error_bg_color: #e50;
 $link_color: #fc6f5d;
-$success_color: #4caf50;
-$warning_color: #ef6c00;
-$error_color: #f44336;
+$success_color: #3b3;
+$warning_color: #e93;
+$error_color: #e50;
 
 $toolbar_bg_color: $bg_color;
 $toolbar_fg_color: $fg_color;
@@ -122,7 +122,7 @@ $backdrop_scrollbar_slider_color: mix($backdrop_fg_color, $backdrop_bg_color, .4
 
 $backdrop_menu_color: if($variant == 'light', $backdrop_base_color, mix($backdrop_bg_color, $backdrop_base_color, .2));
 
-$drop_target_color: #4e9a06;
+$drop_target_color: #590;
 
 // widget styles
 $roundness: 2px;
